@@ -15,6 +15,7 @@ spec:
       containers:
       - name: frontend
         image: seshukalakurthi/eadca2_frontend:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
         env:
