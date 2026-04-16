@@ -15,6 +15,7 @@ spec:
       containers:
       - name: backend
         image: seshukalakurthi/eadca2_backend:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
         env:
