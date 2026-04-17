@@ -17,6 +17,9 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
+      - name: Login to ACR
+        run: az acr login --name eadeployca2registry
+
       - name: Check Azure Account
         run: az account show
 
