@@ -1,5 +1,5 @@
-name: ACR CI
-# Pushing Images to Azure Contanier Registry
+name: ACR CI-CD
+# Pushing Images to ACR & Running Pods in AKS
 
 on:
   workflow_dispatch:
